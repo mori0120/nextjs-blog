@@ -21,7 +21,7 @@ export default function Home({allPostsData}) {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
         <Alert type={type}>
-          <p>Test for alert: Push buttom and Check color</p>
+          <p>Test for alert: Push buttom and Cgit heck color</p>
           <button onClick={()=>{setType(type==='success'? 'error': 'success')}}>change color</button>
         </Alert>
       </section>
